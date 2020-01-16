@@ -3,12 +3,37 @@
  */
 package quotes;
 
+// got help from: https://stackoverflow.com/questions/13185727/reading-a-txt-file-using-scanner-class-in-java
+
+import com.google.gson.Gson;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 public class App {
     public String getGreeting() {
         return "Hello world.";
     }
 
+
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        File file = new File("src/main/resources/recentquotes.json");
+        String jsonString = "";
+        try {
+            Scanner sc = new Scanner(file);
+            while (sc.hasNextLine()){
+                jsonString += sc.nextLine();
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        Gson gson = new Gson();
+
+        Quotes[] words = gson.fromJson(jsonString, Quotes[].class);
+        System.out.println(words[5]);
+
+        //random generator
     }
 }

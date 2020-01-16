@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c750c63b-ef66-418c-ad8c-653c12afca8a" name="Default Changelist" comment="" />
+    <list default="true" id="dcb7e281-bdd2-4fd8-a9f6-60d26753b16b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/quotes/Quotes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quotes/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quotes/App.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,10 +19,29 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1WUNE0StCDTrrt3U6OgDtqM9Eu3" />
+  <component name="ProjectId" id="1WUSeE5AazY6JLLql68KuxDgOou" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,11 +49,32 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quotes.App" />
+      <module name="quotes.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quotes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -46,18 +93,54 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c750c63b-ef66-418c-ad8c-653c12afca8a" name="Default Changelist" comment="" />
-      <created>1579200097794</created>
+      <changelist id="dcb7e281-bdd2-4fd8-a9f6-60d26753b16b" name="Default Changelist" comment="" />
+      <created>1579202774178</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1579200097794</updated>
+      <updated>1579202774178</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="111" key="#Project_Structure" timestamp="1579200428371">
+    <state x="459" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1579203525239">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="459" y="133" key="#com.intellij.ide.util.MemberChooser/0.23.1440.806@0.23.1440.806" timestamp="1579203525239" />
+    <state x="534" y="318" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579202969487">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="534" y="318" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.798@0.23.1440.798" timestamp="1579202969487" />
+    <state width="1292" height="190" key="GridCell.Tab.0.bottom" timestamp="1579204453039">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state x="393" y="111" key="#Project_Structure/0.23.1440.804@0.23.1440.804" timestamp="1579200428371" />
+    <state width="1300" height="204" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1579202985502" />
+    <state width="1292" height="190" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1579204453039" />
+    <state width="1303" height="190" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1579203994569" />
+    <state width="1292" height="190" key="GridCell.Tab.0.center" timestamp="1579204453038">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1300" height="204" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1579202985502" />
+    <state width="1292" height="190" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1579204453038" />
+    <state width="1303" height="190" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1579203994568" />
+    <state width="1292" height="190" key="GridCell.Tab.0.left" timestamp="1579204453037">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1300" height="204" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1579202985501" />
+    <state width="1292" height="190" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1579204453037" />
+    <state width="1303" height="190" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1579203994568" />
+    <state width="1292" height="190" key="GridCell.Tab.0.right" timestamp="1579204453039">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1300" height="204" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1579202985502" />
+    <state width="1292" height="190" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1579204453039" />
+    <state width="1303" height="190" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1579203994569" />
+    <state x="170" y="23" key="SettingsEditor" timestamp="1579202983120">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="170" y="23" key="SettingsEditor/0.23.1440.798@0.23.1440.798" timestamp="1579202983120" />
+    <state x="400" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1579202788819">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="400" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.798@0.23.1440.798" timestamp="1579202788819" />
   </component>
 </project>
