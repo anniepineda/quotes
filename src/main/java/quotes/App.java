@@ -32,12 +32,12 @@ public class App {
 
         Gson gson = new Gson();
 
+        //random quote generator 
+
         Quotes[] words = gson.fromJson(jsonString, Quotes[].class);
         Random quoteGenerator = new Random();
         int random = quoteGenerator.nextInt(words.length);
         System.out.println(words[5]);
-
-        //random quot generator
 
 
     }
