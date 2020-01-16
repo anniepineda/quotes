@@ -9,6 +9,7 @@ import com.google.gson.Gson;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Random;
 import java.util.Scanner;
 
 public class App {
@@ -31,9 +32,13 @@ public class App {
 
         Gson gson = new Gson();
 
-        Quotes[] words = gson.fromJson(jsonString, Quotes[].class);
-        System.out.println(words[5]);
+        //random quote generator
 
-        //random generator
+        Quotes[] words = gson.fromJson(jsonString, Quotes[].class);
+        Random quoteGenerator = new Random();
+        int random = quoteGenerator.nextInt(words.length);
+        System.out.println("quoteGenerator[random]=" + words[random]);
+
+
     }
 }
